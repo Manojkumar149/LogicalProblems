@@ -13,8 +13,11 @@
             //AmstrongNumber amstrongNumber = new AmstrongNumber();
             //amstrongNumber.Check(5);
 
-            PrimeNumber primeNumber = new PrimeNumber();
-            primeNumber.CheckPrime(5);
+            //PrimeNumber primeNumber = new PrimeNumber();
+            //primeNumber.CheckPrime(5);
+
+            ReverseNumber reverseNumber = new ReverseNumber();
+            reverseNumber.Reverse(25);
         }
     }
 }
