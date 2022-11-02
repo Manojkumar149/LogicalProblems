@@ -10,8 +10,11 @@
             //FibonacciSeries series = new FibonacciSeries();
             //series.Print(8);
 
-            AmstrongNumber amstrongNumber = new AmstrongNumber();
-            amstrongNumber.Check(5);
+            //AmstrongNumber amstrongNumber = new AmstrongNumber();
+            //amstrongNumber.Check(5);
+
+            PrimeNumber primeNumber = new PrimeNumber();
+            primeNumber.CheckPrime(5);
         }
     }
 }
