@@ -20,7 +20,7 @@
             //reverseNumber.Reverse(25);
             //CouponNumber.GenerateCoupons(10);
             bool flag = true;
-             Console.WriteLine(" 1.FibonacciSeries \n 2.AmstrongNumber \n 3.PrimeNumber \n 4.ReverseNumber \n 5.CouponNumber");
+             Console.WriteLine(" 1.FibonacciSeries \n 2.AmstrongNumber \n 3.PrimeNumber \n 4.ReverseNumber \n 5.CouponNumber \n 6.StopWatch");
              int check = Convert.ToInt32(Console.ReadLine());
              while (flag)
              {
@@ -45,7 +45,10 @@
                     case 5:
                         CouponNumber.GenerateCoupons(10);
                         break;
-
+                    case 6:
+                        StopWatch stopWatch = new StopWatch();
+                        stopWatch.Start();
+                        break;
                     default:
                          break;
                  }
